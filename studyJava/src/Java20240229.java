@@ -32,7 +32,7 @@ public class Java20240229 {
         //조건식에 사용된 범위가 전체를 100% 커버해야한다
         //중복 해당되도록 조건을 만들면 안됨
         int score = 91;
-        if (score>=90) {
+        if (score >= 90) {
             System.out.println("A학점");
         }else if (score>= 80 && score < 90) {
             System.out.println("B학점");
