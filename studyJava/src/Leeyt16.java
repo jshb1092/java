@@ -13,9 +13,6 @@ public class Leeyt16 {
 
         //9.1~45까지의 랜덤한 정수를 length가 6인 배열에 넣으시오.
         //단,중복 숫자는 허용하지 않음!!
-        Random rd = new Random();
-        int randNum = rd.nextInt(10); // 0 부터 입력한 (정수값-1) 범위에서 랜덤
-        System.out.println(randNum);
         Random randClass = new Random();
         int[] rottoList = new int[6];
 
