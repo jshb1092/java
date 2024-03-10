@@ -9,7 +9,7 @@ public class Leeyt15 {
    //     int[] intList1 = {1,2,3,4,5,6,7,8,9,10};
     //    Scanner scan = new Scanner(System.in);
     //    System.out.print("0~10까지 슷자를 입력해주세요 : ");
-    //    int num = scan.nextInt();
+    //
     //    for(int i=0;i<intList1.length;i++){
     //        if(intList1[i]>num){
     //            System.out.print(intList1[i]+" ");
