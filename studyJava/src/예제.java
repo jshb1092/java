@@ -6,7 +6,7 @@ public class 예제 {
         // 1. 길이가 30인 배열에 1부터 30까지 값을 입력
         /*int[] intList1 = new int[30];
         int i= 1;
-        for(;i<30;i++){
+        for(;i<30;i++){//int앞으로 내보냈을 경우 for문 초기식에서 세미콜론으로만 대체 가능함
             intList1[i] = i + 1;
         }
         System.out.println(intList1);
@@ -18,7 +18,7 @@ public class 예제 {
         for (int i = 0; i < fruitList.length; i++) {
             if (fruitList[i] == "사과") {
                 count = count + 1;
-            } else if (fruitList[i] == "수박") {
+            } else if (fruitList[i] == "수박") { // 만족하는 조건이 2개이상일 경우 else if문으로 추가함
                 count = count + 1;
             }
         }
@@ -47,7 +47,7 @@ public class 예제 {
         Scanner scan2 = new Scanner(System.in);
         System.out.print("이름을 입력해주세요 : ");
         String inputstr = scan2.nextLine();
-        boolean found = false;
+        boolean found = false;//문자열 출력
         for (int i = 0; i < members.length; i++) {
             if (members[i].equalsIgnoreCase(inputstr.toLowerCase())) {
                 System.out.println(members[i] + "환영합니다");
@@ -95,9 +95,9 @@ public class 예제 {
         Random randClass = new Random();
         int[] rottoList = new int[6];
         for (int i = 0; i < rottoList.length; i++) {
-            int temp = randClass.nextInt(45) + 1;
+            int temp = randClass.nextInt(45) + 1;//랜덤으로 숫자를 선택하는 경우 int temp =rd.nextInt(숫자) + 1;
             for (int j = 0; j < i; j++) {
-                if (rottoList[j] == temp) {
+                if (rottoList[j] == temp) {//temp : 데이터 임시 보관(임시 변수)
                     temp = randClass.nextInt(45) + 1;
                     j = -1;
                 }
