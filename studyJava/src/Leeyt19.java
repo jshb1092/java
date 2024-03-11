@@ -17,6 +17,7 @@ public class Leeyt19 {
     }
 
     public static int plusNums(int x, int y) {
+
         return x + y;
     }
 
@@ -29,11 +30,17 @@ public class Leeyt19 {
     }
     //가변길이 배열 입력법이 필요한 이유
     public static int plusNums(int a,int b,int c,int d,int e){
+
         return a + b + c + d + e;
+    }
+
+    public static int plusNums(int a,int b,int c,int d,int e,int f){
+
+        return a + b + c + d + e+ f;
     }
     public static int plusNums(int...values){//int... : 가변길이
         int sum = 0;
-        for (int i=0;i< values.length;i++){
+        for (int i = 0;i< values.length;i++){
             sum = sum + values[i];
         }
         return sum;
