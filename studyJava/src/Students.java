@@ -7,12 +7,17 @@ public class Students {
 
     public Students() {//기본생성자
     }
-
-    public Students(String name, int age, String address,String personalNum) { // 일반생성자
+    public Students(String name, int age, String address, String personalNum) { //모든필드를 담은 일반생성자
         this.name = name;
         this.age = age;
         this.address = address;
         this.personalNum = personalNum;
+
+    }
+    public Students(String name,int age,String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
     }
 
     public String getName() {
