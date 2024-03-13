@@ -1,3 +1,5 @@
+import Students.Students;
+
 public class Leeyt17 {
 
     public Leeyt17() {
@@ -7,7 +9,7 @@ public class Leeyt17 {
         Students tom = new Students("Tom",18,"Daejeon","1482356");
         Students steve = new Students("steve",25,"seoul","866546");
         Students paul = new Students();
-    //    paul.name = "paul";// new Students 괄호안에 안쓰고 하면 이름.name = "이름";
+    //    paul.name = "paul";// new Students.Students 괄호안에 안쓰고 하면 이름.name = "이름";
     //    paul.age = 22; //이름.age = 임의의 숫자값;
     //    paul.address = "Incheon"; // 이름.address = "지역이름";
         paul.setName("Paul");

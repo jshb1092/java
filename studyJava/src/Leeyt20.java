@@ -1,3 +1,5 @@
+import Students.Students;
+
 public class Leeyt20 {
     public static void main(String[] args) {
         // 클래스의 생성자가 없는 경우 => 기본생성자가 자동으로 만들어짐
